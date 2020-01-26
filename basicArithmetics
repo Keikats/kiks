@@ -1,0 +1,6 @@
+int a=1;
+int b=2;
+float c=69.1;
+voidSetup(){pinMode(11,INPUT);pinMode(12,INPUT);pinMode(13,OUTPUT);};voidLoop(){serial.begin(9600);intADDITION=a+b;
+serial.print("ADDITION");intSUBTRACTION=a-b;serial.print("SUBTRACTION");intMULTIPLICATION=a*b;serial.print("MULTIPLICATION");
+intDIVISION=a/b;serial.print("DIVISION");intMODULO=a%b;serial.print("MODULO")intFLOAT=c/b;serial.print("FLOAT");}
